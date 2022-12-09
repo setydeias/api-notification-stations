@@ -1,0 +1,35 @@
+{
+  "name": "api-notification-station",
+  "version": "1.0.0",
+  "description": "Estação de serviço de gerenciamento de notificações para o consumo das API's e APP's da Setydeias.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "API",
+    "gerenciamento",
+    "notificacoes",
+    "Setydeias"
+  ],
+  "author": "Neto Marçal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql-server": "^0.0.5",
+    "nodemailer": "^6.8.0",
+    "nodemailer-express-handlebars": "^5.0.0",
+    "update-notifier": "^6.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
